@@ -23,7 +23,7 @@ RUN npm ci \
 # Copy project source code
 COPY . .
 
-EXPOSE 3000 5001
+EXPOSE 5001
 
 # Start both frontend and backend simultaneously (development mode)
 CMD ["npm", "run", "dev"]
