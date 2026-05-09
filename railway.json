@@ -6,7 +6,7 @@
   },
   "deploy": {
     "startCommand": "npm run backend",
-    "healthcheckPath": "/api/openapi.yaml",
+    "healthcheckPath": "/health",
     "healthcheckTimeout": 600,
     "numReplicas": 1,
     "restartPolicyType": "ON_FAILURE",
